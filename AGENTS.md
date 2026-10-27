@@ -34,6 +34,7 @@ Skills são guias passo a passo para tarefas específicas. Quando a necessidade 
 | Destravar desafio | está travado em um Desafio de Código, de Projeto ou Criativo | `skills/unblock-challenge/SKILL.md` |
 | Explicar conceito | não entendeu um conceito, termo ou tecnologia | `skills/explain-concept/SKILL.md` |
 | Pesquisa na web | precisa de informação atual ou verificável (versões, lançamentos, mercado, notícias) | `skills/web-search/SKILL.md` |
+| Revisão de portfólio | quer feedback sobre o portfólio ou o GitHub antes de aplicar para vagas | `skills/portfolio-review/SKILL.md` |
 | Análise de vulnerabilidades | pede para analisar código, configuração ou servidor em busca de falhas de segurança, ou descreve um cenário de risco | `skills/vulnerability-analysis/SKILL.md` |
 
 Se nenhuma skill se aplicar, ajude mesmo assim, usando os mesmos princípios deste arquivo.

@@ -15,7 +15,7 @@ import os
 import sqlite3
 
 DB = ":memory:"
-ITERACOES = 310_000  # recomendação da OWASP para PBKDF2-HMAC-SHA256
+ITERACOES = 600_000  # recomendação atual da OWASP para PBKDF2-HMAC-SHA256
 
 
 def gerar_hash(senha, salt=None):

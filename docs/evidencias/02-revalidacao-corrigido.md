@@ -83,3 +83,7 @@ Se quiser praticar mais, os labs de SQL Injection e de *username enumeration* (o
 
 Pergunta para checar o aprendizado: com as suas palavras, por que a mensagem "Usuário ou senha inválidos" sozinha não impede que alguém descubra quais usuários existem?
 
+
+---
+
+> **Nota do autor (depois desta análise):** apliquei a recomendação 1 do agente e subi `ITERACOES` para 600.000 em `lab/app_corrigido.py`. Rodei `python lab/testar_injecao.py` de novo e o resultado continua **MITIGADO**. A recomendação 2 (diferença de tempo que revela se o usuário existe, CWE-208) ficou como próximo passo de estudo.

@@ -37,4 +37,4 @@ Posso fazer uma coisa que acho que vai te empolgar: **montar um exemplo seguro**
 
 ---
 
-> **Nota do autor (revisão humana):** a resposta acima é a saída original do agente, sem edição. Ela contém um erro factual: a Lei 12.737/2012 é conhecida como "Lei Carolina Dieckmann", e o nome "Carlos Alberto Dias" citado não tem relação com ela. Mantive o erro de propósito, como evidência de que a resposta de um agente precisa de revisão humana.
+> **Nota do autor (revisão humana):** a resposta acima é a saída original do agente, sem edição. Ela contém um erro factual: a Lei 12.737/2012 é conhecida como "Lei Carolina Dieckmann", e o nome "Carlos Alberto Dias" citado não tem relação com ela. Além disso, o link do DVWA aponta para `dvwa.co.uk`, que não é a fonte que este projeto usa: o endereço oficial do projeto é https://github.com/digininja/DVWA (o mesmo citado em `agent/knowledge/security-basics.md`). Mantive os dois erros de propósito, como evidência de que a resposta de um agente precisa de revisão humana.

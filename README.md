@@ -30,6 +30,7 @@ A skill `vulnerability-analysis` ensina esse raciocínio ao agente. Escolhi esse
 | [`lab/app_corrigido.py`](lab/app_corrigido.py) | **Criado** | Mesmo login com consulta parametrizada e senhas com hash + salt (PBKDF2) |
 | [`lab/testar_injecao.py`](lab/testar_injecao.py) | **Criado** | Teste automático que prova a mitigação |
 | [`docs/roteiro-de-testes.md`](docs/roteiro-de-testes.md) | **Criado** | Prompts usados para testar o agente e o que conferir em cada resposta |
+| [`docs/evidencias/`](docs/evidencias/README.md) | **Criado** | Respostas reais do agente em cada teste (`.md`) e os prints (`.png`) |
 
 ## ✨ Melhoria escolhida: relatório em formato fixo
 
@@ -58,7 +59,7 @@ O agente é definido só por arquivos no padrão **AGENTS.md**, então funciona 
 
 ### 1. Instale um harness
 
-- **Claude Code:** https://docs.claude.com/claude-code
+- **Claude Code:** https://claude.com/claude-code
 - **Hermes:** siga a documentação oficial: https://hermes-agent.nousresearch.com/docs
 
 ### 2. Baixe o projeto
