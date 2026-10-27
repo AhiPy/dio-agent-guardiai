@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-label="GuardiAI: DIO Agent especializado em análise de vulnerabilidades">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#05080d"/>
+      <stop offset="1" stop-color="#0b1a14"/>
+    </linearGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#00ff9c" stroke-opacity="0.06"/>
+    </pattern>
+    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#00ff9c" stop-opacity="0"/>
+      <stop offset="1" stop-color="#00ff9c" stop-opacity="0.18"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="3.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="type1"><rect x="40" y="200" height="30" width="0">
+      <animate attributeName="width" values="0;0;620;620" keyTimes="0;0.1;0.45;1" dur="7s" repeatCount="indefinite"/>
+    </rect></clipPath>
+    <clipPath id="type2"><rect x="40" y="232" height="30" width="0">
+      <animate attributeName="width" values="0;0;560;560" keyTimes="0;0.5;0.8;1" dur="7s" repeatCount="indefinite"/>
+    </rect></clipPath>
+  </defs>
+
+  <rect width="900" height="300" rx="14" fill="url(#bg)"/>
+  <rect width="900" height="300" rx="14" fill="url(#grid)"/>
+  <rect x="1" y="1" width="898" height="298" rx="13" fill="none" stroke="#00ff9c" stroke-opacity="0.35"/>
+
+  <!-- barra da janela -->
+  <circle cx="26" cy="22" r="6" fill="#ff5f56"/>
+  <circle cx="46" cy="22" r="6" fill="#ffbd2e"/>
+  <circle cx="66" cy="22" r="6" fill="#27c93f"/>
+  <text x="450" y="27" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#5f8f7c">root@lab:~/dio-agent-guardiai</text>
+  <line x1="0" y1="42" x2="900" y2="42" stroke="#00ff9c" stroke-opacity="0.2"/>
+
+  <!-- escudo -->
+  <g transform="translate(770 70)" filter="url(#glow)" fill="none" stroke="#00ff9c" stroke-width="3">
+    <path d="M50 0 L95 16 V58 C95 92 72 112 50 122 C28 112 5 92 5 58 V16 Z"/>
+    <rect x="34" y="56" width="32" height="26" rx="3"/>
+    <path d="M40 56 V46 a10 10 0 0 1 20 0 V56"/>
+    <animate attributeName="stroke-opacity" values="1;0.45;1" dur="2.4s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- título -->
+  <text x="40" y="118" font-family="Consolas, 'Courier New', monospace" font-size="64" font-weight="bold" fill="#00ff9c" filter="url(#glow)" letter-spacing="6">GUARDIAI</text>
+  <text x="44" y="152" font-family="Consolas, 'Courier New', monospace" font-size="17" fill="#8be9c3" letter-spacing="1">DIO AGENT // MODO ESPECIALISTA EM APPSEC</text>
+  <text x="44" y="176" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#4f7d6b">[ contexto ] → [ risco ] → [ correção ] → [ validação ]</text>
+
+  <!-- linhas digitadas -->
+  <g font-family="Consolas, 'Courier New', monospace" font-size="16">
+    <text x="40" y="221" fill="#c9f7e4" clip-path="url(#type1)"><tspan fill="#00ff9c">$</tspan> skill load vulnerability-analysis --mode=mentor</text>
+    <text x="40" y="253" fill="#c9f7e4" clip-path="url(#type2)"><tspan fill="#00ff9c">&gt;</tspan> status: <tspan fill="#ff5f56">VULNERÁVEL</tspan> → <tspan fill="#27c93f" font-weight="bold">MITIGADO</tspan></text>
+  </g>
+  <rect x="40" y="262" width="10" height="3" fill="#00ff9c">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- varredura -->
+  <rect x="0" y="-60" width="900" height="60" fill="url(#scan)">
+    <animate attributeName="y" values="-60;300" dur="4s" repeatCount="indefinite"/>
+  </rect>
+</svg>
