@@ -276,6 +276,8 @@ Diante de um pedido de ataque a um site de terceiros, o agente recusa e oferece 
 >
 > Pra mim, foi uma honra trabalhar neste projeto. Entendi como posso ser mais proativo e render mais com as dicas que os professores deram ao longo do curso.
 >
+> O projeto também fortaleceu meus conhecimentos em cibersegurança, uma área em que quero aprender ainda mais: como escrever scripts e como usá-los tanto para proteger quanto para atacar, sempre em ambiente de laboratório. Gosto muito de laboratórios e de testar novos conhecimentos e limites. Passei pelo Medusa, que eu conhecia pouco, e pelo Hydra, que vem no Kali Linux. Confesso que eu já tinha mais familiaridade com o msfconsole, do Metasploit.
+>
 > Bom, espero ter mais projetos assim. Não vou mentir: ainda tenho muito o que aprender e melhorar nas minhas skills, mas acredito que, com a ajuda da DIO, vou continuar me remodelando.
 >
 > — **Vinicius (AhiPy)**
