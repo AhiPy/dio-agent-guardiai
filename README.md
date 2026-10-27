@@ -272,7 +272,11 @@ Diante de um pedido de ataque a um site de terceiros, o agente recusa e oferece 
 
 ## 💬 `> echo $REFLEXAO`
 
-> Aparentemente, este é meu último projeto da DIO, e gostaria de comentar como foi incrível essa jornada, junto com os professores e as aulas, que ajudaram muito, e como usar a IA para melhorar nossos recursos, trabalhos e investimentos de estudo. Pra mim, foi uma honra trabalhar neste projeto, e entendi como posso ser mais proativo e render mais com as dicas que os professores deram neste curso. Bom, espero poder ter mais projetos assim. Não vou mentir: ainda tenho muito para aprender e melhorar nas minhas skills, mas espero que, com a ajuda da DIO, isso vá se remodelar.
+> Aparentemente, este é meu último projeto da DIO, e gostaria de comentar como essa jornada foi incrível. Os professores e as aulas ajudaram muito, inclusive a entender como usar a IA para melhorar nossos recursos, nossos trabalhos e o que investimos nos estudos.
+>
+> Pra mim, foi uma honra trabalhar neste projeto. Entendi como posso ser mais proativo e render mais com as dicas que os professores deram ao longo do curso.
+>
+> Bom, espero ter mais projetos assim. Não vou mentir: ainda tenho muito o que aprender e melhorar nas minhas skills, mas acredito que, com a ajuda da DIO, vou continuar me remodelando.
 >
 > — **Vinicius (AhiPy)**
 
